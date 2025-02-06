@@ -1,0 +1,38 @@
+<annotation>
+	<folder>Fire</folder>
+	<filename>F_336.jpg</filename>
+	<path>C:\Users\User\Desktop\archive (6)\Data\Train_Data\Fire\F_336.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>250</width>
+		<height>250</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>fire</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>40</xmin>
+			<ymin>215</ymin>
+			<xmax>99</xmax>
+			<ymax>249</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>fire</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>145</xmin>
+			<ymin>217</ymin>
+			<xmax>246</xmax>
+			<ymax>250</ymax>
+		</bndbox>
+	</object>
+</annotation>

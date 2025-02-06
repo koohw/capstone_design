@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="refresh" content="2">
+    <title>Logs</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: #007bff;
+            color: #fff;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Logs</h1>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>온도</th>
+            <th>습도</th>
+            <th>총 이동거리</th>
+            <th>화염 감지</th>
+            <th>거리</th>
+        </tr>
+        {% for log in logs %}
+        <tr>
+            <td>{{ log.id }}</td>
+            <td>{{ log.temperature }}°C</td>
+            <td>{{ log.humidity }}%</td>
+            <td>{{ log.delta }}</td>
+            <td>{{ log.flame_status }}</td>
+            <td>{{ log.distance }} cm</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

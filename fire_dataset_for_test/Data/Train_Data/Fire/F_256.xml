@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Fire</folder>
+	<filename>F_256.jpg</filename>
+	<path>C:\Users\User\Desktop\archive (6)\Data\Train_Data\Fire\F_256.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>5152</width>
+		<height>3864</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>fire</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>914</xmin>
+			<ymin>2349</ymin>
+			<xmax>5152</xmax>
+			<ymax>3214</ymax>
+		</bndbox>
+	</object>
+</annotation>

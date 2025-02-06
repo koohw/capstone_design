@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>307.jpg</filename>
+	<path>C:\Users\User\Desktop\images\307.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>512</width>
+		<height>512</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>human</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>171</xmin>
+			<ymin>39</ymin>
+			<xmax>456</xmax>
+			<ymax>477</ymax>
+		</bndbox>
+	</object>
+</annotation>

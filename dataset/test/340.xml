@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>340.jpg</filename>
+	<path>C:\Users\User\Desktop\images\340.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>512</width>
+		<height>512</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>human</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>138</xmin>
+			<ymin>119</ymin>
+			<xmax>366</xmax>
+			<ymax>407</ymax>
+		</bndbox>
+	</object>
+</annotation>

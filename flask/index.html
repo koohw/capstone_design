@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="refresh" content="10">
+    <title>Index</title>
+    <style>
+        .view-logs-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .view-led-status-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #000000;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .data-container {
+            display: inline-block;
+            margin-right: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="data-container">
+        <h2>온도</h2>
+        <p>{{ temperature }}°C</p>
+    </div>
+
+    <div class="data-container">
+        <h2>습도</h2>
+        <p>{{ humidity }}%</p>
+    </div>
+
+    <div class="data-container">
+        <h2>가속도계</h2>
+        <p>총 이동거리: {{ delta }}</p>
+    </div><br>
+
+    <div class="data-container">
+        <h2>화염 감지</h2>
+        <p>{{ flame_status }}</p>
+    </div>
+
+    <div class="data-container">
+        <h2>알람</h2>
+        <p>{{ alarm }}</p>
+    </div>
+
+    <div class="data-container">
+        <h2>거리</h2>
+        <p>{{ distance }} cm</p>
+    </div><br>
+
+    <a href="/logs" class="view-logs-btn">로그 보기</a>
+
+</body>
+</html>

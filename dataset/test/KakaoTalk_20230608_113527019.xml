@@ -1,0 +1,26 @@
+<annotation>
+	<folder>dd</folder>
+	<filename>KakaoTalk_20230608_113527019.jpg</filename>
+	<path>C:\Users\User\Desktop\dd\KakaoTalk_20230608_113527019.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>512</width>
+		<height>512</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>human</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>178</xmin>
+			<ymin>143</ymin>
+			<xmax>311</xmax>
+			<ymax>340</ymax>
+		</bndbox>
+	</object>
+</annotation>
